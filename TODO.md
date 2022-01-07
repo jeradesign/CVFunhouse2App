@@ -3,6 +3,7 @@
 ## TODO
 * Use OpenCV from CocoaPod
 * Move CVFunhouse framework to CocoaPod
+* Move HTML files, icons, storyboards, etc to subfolders
 
 ## DONE
 
