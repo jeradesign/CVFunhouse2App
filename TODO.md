@@ -19,3 +19,4 @@
 * Consider making demos pure C++
 * Is it threadsafe to let a demo recycle its output image?
   * image pool?
+* Add increment build number scripts
