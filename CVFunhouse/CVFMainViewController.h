@@ -6,9 +6,7 @@
 //  Copyright (c) 2012 Jera Design LLC. All rights reserved.
 //
 
-#import <AVFoundation/AVFoundation.h>
 #import <GLKit/GLKit.h>
-#import "CVFImageProcessorDelegate.h"
 #import "CVFFlipsideViewController.h"
 #import "CVFViewController.h"
 
@@ -17,8 +15,6 @@
 @interface CVFMainViewController : CVFViewController <
     CVFFlipsideViewControllerDelegate,
     UIPopoverControllerDelegate,
-    AVCaptureVideoDataOutputSampleBufferDelegate,
-    CVFImageProcessorDelegate,
     UIWebViewDelegate
     >
 @property (weak, nonatomic) IBOutlet UIImageView *imageView;

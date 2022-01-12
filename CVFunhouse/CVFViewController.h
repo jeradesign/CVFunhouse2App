@@ -7,10 +7,26 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <AVFoundation/AVFoundation.h>
+#import "CVFImageProcessorDelegate.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface CVFViewController : UIViewController
+@interface CVFViewController : UIViewController <
+    AVCaptureVideoDataOutputSampleBufferDelegate,
+    CVFImageProcessorDelegate
+> {
+    bool _useBackCamera;
+}
+
+@property (nonatomic) CVFImageProcessor *imageProcessor;
+- (void)setImageProcessor:(CVFImageProcessor *)imageProcessor;
+- (CVFImageProcessor *)imageProcessor;
+
+
+- (void)setupCamera;
+- (void)turnCameraOn;
+- (void)turnCameraOff;
 
 @end
 
