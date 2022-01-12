@@ -6,10 +6,10 @@
 //  Copyright (c) 2012 Jera Design LLC. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
 
-#include "opencv2/core/core_c.h"
-#include "opencv2/imgproc/imgproc_c.h"
+#include "opencv2/core.hpp"
+#include "opencv2/imgproc.hpp"
 
 @protocol CVFImageProcessorDelegate;
 

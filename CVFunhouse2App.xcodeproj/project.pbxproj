@@ -285,7 +285,6 @@
 				3FC3E67C42D741E4C13FA32B /* Pods-CVFunhouse2App.debug.xcconfig */,
 				9183ADDBE84A9428EEE2DE1F /* Pods-CVFunhouse2App.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -581,8 +580,8 @@
 					"$(inherited)",
 					"\"$(SRCROOT)\"",
 				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "CVFunhouse/CVFunhouse2App-Prefix.pch";
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "";
 				HEADER_SEARCH_PATHS = "";
 				INFOPLIST_FILE = "CVFunhouse/CVFunhouse2App-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
@@ -603,8 +602,8 @@
 					"$(inherited)",
 					"\"$(SRCROOT)\"",
 				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "CVFunhouse/CVFunhouse2App-Prefix.pch";
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "";
 				HEADER_SEARCH_PATHS = "";
 				INFOPLIST_FILE = "CVFunhouse/CVFunhouse2App-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
