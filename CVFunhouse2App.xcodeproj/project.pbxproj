@@ -18,6 +18,7 @@
 		420A4FB216C4B45200256C66 /* CVFMotionTemplates.html in Resources */ = {isa = PBXBuildFile; fileRef = 420A4FAD16C4B45200256C66 /* CVFMotionTemplates.html */; };
 		420A4FB316C4B45200256C66 /* CVFPassThru.html in Resources */ = {isa = PBXBuildFile; fileRef = 420A4FAE16C4B45200256C66 /* CVFPassThru.html */; };
 		421897E616BC879900AC716C /* CloseButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 421897E516BC879900AC716C /* CloseButton.png */; };
+		4234F874278E61170026B69D /* CVFViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4234F873278E5F7E0026B69D /* CVFViewController.m */; };
 		423967152742FF0100CE6D99 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 423967142742FF0100CE6D99 /* Launch Screen.storyboard */; };
 		423FA83715DB1AD3001D30AC /* SwitchCameraIcon44.png in Resources */ = {isa = PBXBuildFile; fileRef = 423FA83515DB1AD3001D30AC /* SwitchCameraIcon44.png */; };
 		423FA83815DB1AD3001D30AC /* SwitchCameraIcon44@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 423FA83615DB1AD3001D30AC /* SwitchCameraIcon44@2x.png */; };
@@ -74,6 +75,8 @@
 		420A4FAD16C4B45200256C66 /* CVFMotionTemplates.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = CVFMotionTemplates.html; sourceTree = "<group>"; };
 		420A4FAE16C4B45200256C66 /* CVFPassThru.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = CVFPassThru.html; sourceTree = "<group>"; };
 		421897E516BC879900AC716C /* CloseButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CloseButton.png; sourceTree = "<group>"; };
+		4234F872278E5F7E0026B69D /* CVFViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CVFViewController.h; sourceTree = "<group>"; };
+		4234F873278E5F7E0026B69D /* CVFViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CVFViewController.m; sourceTree = "<group>"; };
 		423967142742FF0100CE6D99 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		423FA83515DB1AD3001D30AC /* SwitchCameraIcon44.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SwitchCameraIcon44.png; sourceTree = "<group>"; };
 		423FA83615DB1AD3001D30AC /* SwitchCameraIcon44@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SwitchCameraIcon44@2x.png"; sourceTree = "<group>"; };
@@ -256,6 +259,8 @@
 				42AA08671508314600B379F4 /* CVFAppDelegate.m */,
 				42AA08691508314600B379F4 /* MainStoryboard_iPhone.storyboard */,
 				42AA086C1508314600B379F4 /* MainStoryboard_iPad.storyboard */,
+				4234F872278E5F7E0026B69D /* CVFViewController.h */,
+				4234F873278E5F7E0026B69D /* CVFViewController.m */,
 				42AA086F1508314600B379F4 /* CVFMainViewController.h */,
 				42AA08701508314600B379F4 /* CVFMainViewController.m */,
 				42AA08721508314600B379F4 /* CVFFlipsideViewController.h */,
@@ -412,6 +417,7 @@
 				42AA08711508314600B379F4 /* CVFMainViewController.m in Sources */,
 				42AA08741508314600B379F4 /* CVFFlipsideViewController.m in Sources */,
 				42537094150839FF00BFE3C0 /* CVFImageProcessor.mm in Sources */,
+				4234F874278E61170026B69D /* CVFViewController.m in Sources */,
 				42B3377C15BB2F5200CBD888 /* CVFCannyDemo.m in Sources */,
 				CD7E937715BB5354004D709A /* CVFSephiaDemo.m in Sources */,
 				420A3F8515BC6724004804EF /* CVFPassThru.m in Sources */,

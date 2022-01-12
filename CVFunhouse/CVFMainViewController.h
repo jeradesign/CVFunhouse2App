@@ -10,10 +10,11 @@
 #import <GLKit/GLKit.h>
 #import "CVFImageProcessorDelegate.h"
 #import "CVFFlipsideViewController.h"
+#import "CVFViewController.h"
 
 @class CVFImageProcessor;
 
-@interface CVFMainViewController : UIViewController <
+@interface CVFMainViewController : CVFViewController <
     CVFFlipsideViewControllerDelegate,
     UIPopoverControllerDelegate,
     AVCaptureVideoDataOutputSampleBufferDelegate,
