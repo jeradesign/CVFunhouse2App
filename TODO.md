@@ -2,6 +2,7 @@
 
 ## TODO
 * Update CVFunhouse to OpenCV 4.x
+* Create null CVFImageProcessor with warning message
 * Move CVFunhouse framework to CocoaPod
 
 ## DONE
