@@ -1,12 +1,13 @@
 # CVFunhouse2App TODO
 
 ## TODO
-* Move CVFunhouse framework to CocoaPod
 * Move HTML files, icons, storyboards, etc to subfolders
 * Update CVFunhouse to OpenCV 4.x
+* Move CVFunhouse framework to CocoaPod
 
 ## DONE
 * ~~Use OpenCV from CocoaPod~~
+* ~~Factor out framework~~
 
 ## ON HOLD
 
