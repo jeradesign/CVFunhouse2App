@@ -183,6 +183,18 @@
 			name = Demos;
 			sourceTree = "<group>";
 		};
+		42127DE6278E8CFC00511DD8 /* CVFunhouse2Framework */ = {
+			isa = PBXGroup;
+			children = (
+				4234F872278E5F7E0026B69D /* CVFViewController.h */,
+				4234F873278E5F7E0026B69D /* CVFViewController.m */,
+				42537092150839FF00BFE3C0 /* CVFImageProcessor.h */,
+				42537093150839FF00BFE3C0 /* CVFImageProcessor.mm */,
+				4253709515083BA800BFE3C0 /* CVFImageProcessorDelegate.h */,
+			);
+			path = CVFunhouse2Framework;
+			sourceTree = "<group>";
+		};
 		4285252915BF6CDF00622EE8 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
@@ -255,19 +267,15 @@
 		42AA085D1508314600B379F4 /* CVFunhouse */ = {
 			isa = PBXGroup;
 			children = (
+				42127DE6278E8CFC00511DD8 /* CVFunhouse2Framework */,
 				42AA08661508314600B379F4 /* CVFAppDelegate.h */,
 				42AA08671508314600B379F4 /* CVFAppDelegate.m */,
 				42AA08691508314600B379F4 /* MainStoryboard_iPhone.storyboard */,
 				42AA086C1508314600B379F4 /* MainStoryboard_iPad.storyboard */,
-				4234F872278E5F7E0026B69D /* CVFViewController.h */,
-				4234F873278E5F7E0026B69D /* CVFViewController.m */,
 				42AA086F1508314600B379F4 /* CVFMainViewController.h */,
 				42AA08701508314600B379F4 /* CVFMainViewController.m */,
 				42AA08721508314600B379F4 /* CVFFlipsideViewController.h */,
 				42AA08731508314600B379F4 /* CVFFlipsideViewController.m */,
-				42537092150839FF00BFE3C0 /* CVFImageProcessor.h */,
-				42537093150839FF00BFE3C0 /* CVFImageProcessor.mm */,
-				4253709515083BA800BFE3C0 /* CVFImageProcessorDelegate.h */,
 				42AA085E1508314600B379F4 /* Supporting Files */,
 			);
 			path = CVFunhouse;
